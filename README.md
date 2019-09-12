@@ -4,7 +4,7 @@
 ## Structural Patterns
 ## Behavioral Patterns
   * ### Strategy Pattern
-    Used to change the behavior of an algorithm at runtime. (also known as Policy Pattern)
+    Used where you want to choose the algorithm to use at runtime. (also known as Policy Pattern)
     
     Let's assume that we have a payment system where different types of payment methods are available, for example it can be a 'paypal' or 'credit card'. First, let's create a Payment interface which will be implemented by our payment methods. 
     Then we'll create concrete implementation of methods that implements our interface.
