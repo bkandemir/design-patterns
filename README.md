@@ -2,6 +2,18 @@
 
 ## Creational Patterns
 ## Structural Patterns
+  * ### Decorator Pattern
+    
+     The decorator design pattern allows us to dynamically add functionality and behavior to an **object** without affecting the behavior of other existing objects in the same class. 
+    
+    Suppose that, there is an ice cream shop, which makes a different types of ice creams. There are many flavours of ice creams to select. Imagine that someone went there and ordered a chocolate ice cream and mint ice cream.
+    So, There will be a Ice Cream interface which will be a base component interface for both the original object and decorator object then we'll have a BasicIceCream which is the actual base ice cream which use to make the customer required flavour of ice cream and IceCreamDecorator which is the abstract decorator for the subsequent concrete decorator classes, and lastly flavouredIcecreams(Chocolate,Mint..) which can be one of the concrete implementation of the decorator interface. This decorator class adds desired flavour decoration to the concrete ice cream. Desired flavor(Chocolate,Mint..) is the additional state or feature in this particular instance.
+    
+        When there are large number of different combinations or options for an object and
+        sub-classing is not the optimal solution Decorator Pattern can be used.
+    
+    <img width="1021" alt="Screen Shot 2019-09-12 at 10 42 19" src="https://user-images.githubusercontent.com/25486099/64764103-0d5cea00-d54a-11e9-8a0c-d851c3fe7ff2.png">
+
 ## Behavioral Patterns
   * ### Strategy Pattern
     Used where you want to choose the algorithm to use at runtime. (also known as Policy Pattern)
