@@ -1,4 +1,4 @@
-package com.berkay.DecoratorPattern;
+package com.berkay.decorator;
 
 public class MintIceCream extends IceCreamDecorator {
 	public MintIceCream(IceCream iceCream) {

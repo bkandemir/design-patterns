@@ -1,4 +1,4 @@
-package com.berkay.ObserverPattern;
+package com.berkay.observer;
 
 public class EmailTopicSubscriber implements Observer {
 	private String message;

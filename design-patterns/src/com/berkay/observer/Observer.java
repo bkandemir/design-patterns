@@ -1,4 +1,4 @@
-package com.berkay.ObserverPattern;
+package com.berkay.observer;
 
 public interface Observer {
 	public void update();

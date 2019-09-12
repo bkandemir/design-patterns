@@ -1,4 +1,4 @@
-package com.berkay.ObserverPattern;
+package com.berkay.observer;
 
 public interface Subject {
 	public void register(Observer observer);

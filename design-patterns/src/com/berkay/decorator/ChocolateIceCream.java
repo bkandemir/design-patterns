@@ -1,4 +1,4 @@
-package com.berkay.DecoratorPattern;
+package com.berkay.decorator;
 
 public class ChocolateIceCream extends IceCreamDecorator {
 	

@@ -1,4 +1,4 @@
-package com.berkay.StrategyPattern;
+package com.berkay.strategy;
 
 public class Product {
 	

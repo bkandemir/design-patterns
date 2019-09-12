@@ -1,4 +1,4 @@
-package com.berkay.DecoratorPattern;
+package com.berkay.decorator;
 
 public class IceCreamDecorator implements IceCream {
 	private IceCream iceCream;

@@ -1,4 +1,4 @@
-package com.berkay.StrategyPattern;
+package com.berkay.strategy;
 
 import java.util.ArrayList;
 import java.util.List;

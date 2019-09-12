@@ -1,4 +1,4 @@
-package com.berkay.ObserverPattern;
+package com.berkay.observer;
 
 import java.util.ArrayList;
 import java.util.List;
