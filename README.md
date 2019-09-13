@@ -1,6 +1,16 @@
 # Design Patterns
 
 ## Creational Patterns
+  * ### Factory Pattern
+  
+  A Factory Pattern or Factory Method Pattern says that just define an **interface** or **abstract class** for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
+     
+     Factory Pattern promotes the loose-coupling by eliminating the need to bind application-specific classes into the code.
+     That means the code interacts solely with the resultant interface or abstract class,
+     so that it will work with any classes that implement that interface or that extends that abstract class.
+  
+  <img width="1080" alt="Screen Shot 2019-09-13 at 09 27 10" src="https://user-images.githubusercontent.com/25486099/64841767-b833dd80-d608-11e9-8689-0597a7ec08c2.png">
+  
 ## Structural Patterns
   * ### Decorator Pattern
     
