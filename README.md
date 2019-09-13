@@ -1,6 +1,17 @@
 # Design Patterns
 
 ## Creational Patterns
+  
+  * ### Singleton Pattern
+  
+  When we need only one instance of an object, Singleton ensures that a class has only one instance and provide a global point of access to it
+  
+  There are various ways to design/code a singleton class.
+  
+     1 - Eager Initialization Method
+     2 - Lazy Initialization Method
+     3 - Lazy Initialization with double lock Method
+  
   * ### Factory Pattern
   
   A Factory Pattern or Factory Method Pattern says that just define an **interface** or **abstract class** for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
