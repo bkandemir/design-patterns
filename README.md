@@ -42,6 +42,22 @@
     <img width="1021" alt="Screen Shot 2019-09-12 at 10 42 19" src="https://user-images.githubusercontent.com/25486099/64764103-0d5cea00-d54a-11e9-8a0c-d851c3fe7ff2.png">
 
 ## Behavioral Patterns
+  * ### Command Pattern
+    The Command Pattern encapsulates a request as an object (Game Card) thereby letting you parameterize other objects with different requests, queues or log requests.
+    
+    To understand command design pattern we should understand the associated key terms like client, command, command implementation, invoker, receiver.
+
+        1 - Command is an interface with execute method. It is the core of contract.
+        2 - A client creates an instance of a command implementation and associates it with a receiver.
+        3 - An invoker instructs the command to perform an action.
+        4 - A Command implementation’s instance creates a binding between the receiver and an action.
+        5 - Receiver is the object that knows the actual steps to perform the action.
+    
+    In Command Pattern, the request is send to the invoker and invoker pass it to the encapsulated command object.
+  Command object passes the request to the appropriate method of Receiver to perform the specific action.
+    
+   <img width="1092" alt="Screen Shot 2019-09-16 at 15 11 09" src="https://user-images.githubusercontent.com/25486099/64956874-48d21e00-d894-11e9-8abf-935a9e65526e.png">
+  
   * ### Strategy Pattern
     Used where you want to choose the algorithm to use at runtime. (also known as Policy Pattern)
     
