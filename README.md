@@ -47,6 +47,9 @@
       
       Let's assume that we are travelling the world and we end up in US, assuming that you live in Turkey, these two countries have different types of wall sockets. So you'll need an **adapter**  in order to charge your electronics. So, adapter makes it so that interface A and interface B are totally not quite related with each other and an adapter comes in to facilitate that interaction that interface that should happen between those two.
       
+      In below diagram, Client is implemented against the target interface which means the client only sees the target interface, you can see there in the target interface will have a method called request() and then we have an adapter which implements the target. Now the adapter here is composed with Adaptee, all the requests get delegated to the Adaptee, so that Adaptee is the one that will get all of those delegations from requests. So the idea here is that the Adaptee and the Client are supposed to connect but they can't connect because they are two different things. So we need some sort of an adapter.
+Now this adapter here will connect to the target which will know exactly what to do in order to make Client and Adaptee connection possible.
+      
       <img width="1062" alt="Screen Shot 2019-09-17 at 11 13 44" src="https://user-images.githubusercontent.com/25486099/65023807-4b884e00-d93c-11e9-9c2d-05da5606e7fa.png">
 
 ## Behavioral Patterns
