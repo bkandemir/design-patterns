@@ -4,6 +4,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		testingObjectAdapter();
+		testingClassAdapter();
 
 	}
 	
@@ -18,6 +19,20 @@ public class MainClass {
 		System.out.println("V3 is using Object adapter " + v3.getVolt());
 		System.out.println("V12 is using Object adapter " + v12.getVolt());
 		System.out.println("V120 is using Object adapter " + v120.getVolt());
+		System.out.println("---------------------------------");
+	}
+	
+	private static void testingClassAdapter() {
+		SocketAdapter s = new SocketAdapterImp();
+		Voltage v1 = getVoltage(s,1);
+		Voltage v3 = getVoltage(s,3);
+		Voltage v12 = getVoltage(s,12);
+		Voltage v120 = getVoltage(s,120);
+		
+		System.out.println("V1 is using Class adapter " + v1.getVolt());
+		System.out.println("V3 is using Class adapter " + v3.getVolt());
+		System.out.println("V12 is using Class adapter " + v12.getVolt());
+		System.out.println("V120 is using Class adapter " + v120.getVolt());
 	}
 
 	private static Voltage getVoltage(SocketAdapter s, int i) {

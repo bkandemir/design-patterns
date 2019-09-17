@@ -12,14 +12,14 @@ public class SocketAdapterImp extends Socket implements SocketAdapter {
 	public Voltage get12Volts() {
 		// TODO Auto-generated method stub
 		Voltage v = getVoltage();
-		return convertVolt(v,40);
+		return convertVolt(v,10);
 	}
 
 	@Override
 	public Voltage get3Volts() {
 		// TODO Auto-generated method stub
 		Voltage v = getVoltage();
-		return convertVolt(v,10);
+		return convertVolt(v,40);
 	}
 
 	@Override
