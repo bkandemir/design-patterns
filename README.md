@@ -42,7 +42,7 @@
     <img width="1021" alt="Screen Shot 2019-09-12 at 10 42 19" src="https://user-images.githubusercontent.com/25486099/64764103-0d5cea00-d54a-11e9-8a0c-d851c3fe7ff2.png">
     
     
-    * ### Adapter Pattern
+  * ### Adapter Pattern
       Adapter design pattern is one of the structural design pattern and its used so that two unrelated interfaces can work together. The object that joins these unrelated interface is called an Adapter.
       
       Let's assume that we are travelling the world and we end up in US, assuming that you live in Turkey, these two countries have different types of wall sockets. So you'll need an **adapter**  in order to charge your electronics. So, adapter makes it so that interface A and interface B are totally not quite related with each other and an adapter comes in to facilitate that interaction that interface that should happen between those two.
@@ -52,6 +52,15 @@ Now this adapter here will connect to the target which will know exactly what to
       
       <img width="1062" alt="Screen Shot 2019-09-17 at 11 13 44" src="https://user-images.githubusercontent.com/25486099/65023807-4b884e00-d93c-11e9-9c2d-05da5606e7fa.png">
 
+   * ### Facade Pattern
+     Provides a unified interface to a set of interfaces in a subsystem. Facade Pattern defines a higher-level interface that makes the subsystem easier to use.
+     
+     Suppose that we want to put together a computer system. Nowadays, a computer has a lot of different components so we have different subsystems that put together will create will make up what a computer is. So we'll have CPU, hard drive memory, monitor, mouse and so many other components that will need to come together in order for us to have an actual computer So if we wanted to actually create a computer we'll need to put together all of these components. Let's say we want to emulate a computer system in code. So that means we'll have to create a CPu class, hard drive class, memory class or class mouse class etc. You know this will have a lot of different subclasses that will need to put together in order for us to create this system with a computer simulation for say. We'll need to know about CPU , hard drive to do things we need to know by memory allocation. So the facade pattern provides a simplified interface to a larger body of code or system.
+Right so we put together under one umbrella all of the system that needs to be abstracted out and we use the facade to communicate with that subsystem as opposed to Client having to know everything about all of this subsystem. So now if you want to for instance put together the computer we just call the computer facade.
+     
+     <img width="1039" alt="Screen Shot 2019-09-17 at 13 34 55" src="https://user-images.githubusercontent.com/25486099/65034589-0241f980-d950-11e9-8eac-07f506102881.png">
+   
+   
 ## Behavioral Patterns
   * ### Command Pattern
     The Command Pattern encapsulates a request as an object (Game Card) thereby letting you parameterize other objects with different requests, queues or log requests.
