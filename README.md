@@ -92,6 +92,17 @@ Right so we put together under one umbrella all of the system that needs to be a
     
     <img width="1053" alt="Screen Shot 2019-09-11 at 16 26 11" src="https://user-images.githubusercontent.com/25486099/64701663-daffae00-d4b1-11e9-98f6-aa8fd84bee50.png">
     
+  * ### Template Pattern
+    Template method defines the steps to execute an algorithm and it can provide default implementation that might be common for all or some of the subclasses.
+    
+    Let's suppose that you are in the game development business. Build mobile games video games console games etc. Client Number one says please create a football game, console game or a mobile game game and their client asks you to create a hockey game. The other one comes back and say hey, create a basketball game. 
+    
+    One thing we start noticing real quick is that certain methods or certain properties are pretty much the same regardless of which kind of games that you'll be creating. For instance for football game you have initialize. You have start play. So those are the basics. And for hockey game again you have initialize games, start play. Now if you start putting together the higher key code or the classes hierarchy of all your games you noticed this is not a good strategy because this gets very redundant. 
+      
+    So, abstract out the main components for all games so that any other class other game that I create will inherit or implement for them or abstract class game. Now each game football game may want to initialize it differently or the start may be a little bit different. So the template method pattern essentially what it does it encapsulates algorithm so that each subclass it's able to tweak if it needs certain properties or certain functions that it needs certain properties or the way it does things.
+    
+    <img width="790" alt="Screen Shot 2019-09-17 at 16 51 24" src="https://user-images.githubusercontent.com/25486099/65047634-72aa4400-d96b-11e9-846d-2ba8d3253292.png">
+    
     ###### *References: javagists , journaldev
     
 
