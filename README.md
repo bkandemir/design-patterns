@@ -40,6 +40,14 @@
         sub-classing is not the optimal solution Decorator Pattern can be used.
     
     <img width="1021" alt="Screen Shot 2019-09-12 at 10 42 19" src="https://user-images.githubusercontent.com/25486099/64764103-0d5cea00-d54a-11e9-8a0c-d851c3fe7ff2.png">
+    
+    
+    * ### Adapter Pattern
+      Adapter design pattern is one of the structural design pattern and its used so that two unrelated interfaces can work together. The object that joins these unrelated interface is called an Adapter.
+      
+      Let's assume that we are travelling the world and we end up in US, assuming that you live in Turkey, these two countries have different types of wall sockets. So you'll need an **adapter**  in order to charge your electronics. So, adapter makes it so that interface A and interface B are totally not quite related with each other and an adapter comes in to facilitate that interaction that interface that should happen between those two.
+      
+      <img width="1062" alt="Screen Shot 2019-09-17 at 11 13 44" src="https://user-images.githubusercontent.com/25486099/65023807-4b884e00-d93c-11e9-9c2d-05da5606e7fa.png">
 
 ## Behavioral Patterns
   * ### Command Pattern
