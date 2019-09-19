@@ -109,6 +109,8 @@ Right so we put together under one umbrella all of the system that needs to be a
       Suppose that we have a store1 and store2. Both stores have inventories. but one of them stores it in arraylist while another one is storing in array. Let's say store1 is doing so well so they've decided to merge. The problem is when they merge their inventories were different. So deveopers decide that to get data from different store they created different for loops. When a new store is needed we need to implement differnt loops and etc. Well the solution is to create or use an iterator. An iterator is an interface that we can use to create different types of iterators that will encapsulate the way we interact the way we iterate through a collection of objects. What this means is now if we have a inventory1 we could have also have even inventory2 which will then implement the iterator interface as it can see at the top there.
       Right now all we have to do is just use the inventory1 which will know exactly how to get objects how to get the products from our inventory1. Same thing we can use to have inventory to do the same to get the inventory for our store2. So now we've abstracted we've encapsulated the way we iterate through our collection of objects.
       
+      **What we are trying to do with iterator design pattern is to provide a common loop mechanism to the end user regardless of the type of data set we have.**
+      
       <img width="776" alt="Screen Shot 2019-09-19 at 13 53 51" src="https://user-images.githubusercontent.com/25486099/65239470-b9bd4400-dae7-11e9-8e58-a992062ddd5f.png">
 
       
